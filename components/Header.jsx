@@ -13,8 +13,8 @@ const Header = () => {
         <p className='max-w-2xl mx-auto font-Ovo'>Full-Stack Developer | Expert in React.js, Node.js, MERN Stack | Proficient in MongoDB, MySQL | Skilled in HTML, CSS, JavaScript,Bootstrap, Tailwind CSS</p>
 
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
-            <a href="#contact" className='px-10 py-3 border rounded-full border-white bg-black text-white flex items-center gap-2' >Contact Me <Image src={assets.right_arrow_white} alt='' className='w-6' /></a>
-            <a href="/sample-resume1.pdf"download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2' >My Resume <Image src={assets.download_icon} alt='' className='w-6' /></a>
+            <a href="#contact" className='px-10 py-3 border rounded-full border-white bg-black text-white flex items-center gap-2 dark:bg-transparent' >Contact Me <Image src={assets.right_arrow_white} alt='' className='w-6' /></a>
+            <a href="/sample-resume1.pdf"download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black' >My Resume <Image src={assets.download_icon} alt='' className='w-6' /></a>
         </div>
     </div>
   )
