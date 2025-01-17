@@ -81,24 +81,28 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Job Portal Website',
+        description: 'Full Stack project',
         bgImage: '/work-1.png',
+        link: 'https://job-portal-client-beta.vercel.app/'
     },
     {
-        title: 'Backend Project',
-        description: 'Backend design',
+        title: 'Food Delivery app',
+        description: 'Full stack project',
         bgImage: '/work-2.png',
+        link:'https://github.com/JUDHI3134/food-cart'
     },
     {
-        title: 'Full Stack Website',
+        title: 'Blog Website',
         description: 'Full Stack Design',
         bgImage: '/work-3.png',
+        link:'https://github.com/JUDHI3134/next-jb-blog'
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Login Authentication',
+        description: 'Backend project',
         bgImage: '/work-4.png',
+        link:'https://github.com/JUDHI3134/otp-authenticate'
     },
 ]
 
