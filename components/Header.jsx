@@ -22,12 +22,12 @@ const Header = () => {
         initial={{y: -30, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
         transition={{duration: 0.8, delay: 0.5}}
-        className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>Full Stack Developer in India</motion.h1>
+        className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>Full Stack Web Developer</motion.h1>
         <motion.p
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         transition={{duration: 0.6, delay: 0.7}}
-        className='max-w-2xl mx-auto font-Ovo'>Full-Stack Developer | Expert in React.js, Node.js, MERN Stack | Proficient in MongoDB, MySQL | Skilled in HTML, CSS, JavaScript,Bootstrap, Tailwind CSS</motion.p>
+        className='max-w-2xl mx-auto font-Ovo'>Full-Stack Web Developer | Expert in React.js, Node.js, MERN Stack | Proficient in MongoDB, MySQL | Skilled in HTML, CSS, JavaScript, Java, Bootstrap, Tailwind CSS</motion.p>
 
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
             <motion.a

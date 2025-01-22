@@ -9,7 +9,7 @@ const Services = () => {
     initial={{opacity: 0}}
     whileInView={{opacity: 1}}
     transition={{duration: 1}}
-    id='services' className='w-full px-[12%] py-10 scroll-mt-20'>
+    id='experience' className='w-full px-[12%] py-10 scroll-mt-20'>
       <motion.h4
       initial={{y: -20, opacity: 0}}
       whileInView={{y: 0, opacity: 1}}
@@ -19,7 +19,7 @@ const Services = () => {
       initial={{y: -20, opacity: 0}}
       whileInView={{y: 0, opacity: 1}}
       transition={{duration: 0.5, delay: 0.5}}
-      className='text-center text-5xl font-Ovo'>My Services</motion.h2>
+      className='text-center text-5xl font-Ovo'>My Experience</motion.h2>
 
     <motion.p
     initial={{opacity: 0}}
